@@ -1,0 +1,60 @@
+DO NOT USE THIS DATA, IT IS RAW!
+
+https://lemmy.ml/
+A community of privacy and FOSS enthusiasts, run by Lemmy’s developers
+https://lemmy.world/
+A generic Lemmy server for everyone to use.
+https://beehaw.org/
+Aspiring to be(e) a safe, friendly and diverse place.
+https://feddit.de/
+Deutschsprachige Lemmy Community
+https://sopuli.xyz/
+A general-purpose instance run by a Finn - everyone is welcome here!
+https://lemm.ee/
+General-purpose Lemmy instance. New users & communities welcome!
+https://lemmy.ca/
+A canadian-run community, geared towards canadians, but all are welcome!
+https://sh.itjust.works/
+A bilingual (EN/FR) general-purpose instance located in eastern Canada! Powered by 99% renewal energy! Everyone is welcome eh.
+https://programming.dev/
+A collection of programming communities
+https://lemmy.blahaj.zone/
+This instance is a general purpose lemmy instance for queer and gender diverse folk, and their allies.
+https://discuss.tchncs.de/
+Enjoy your favorite Lemmy communities at tchncs! This instance is general purpose but it tends to attract techy people. It is hosted in Germany.
+https://lemmy.dbzer0.com/
+Be Weird, Download a Car, Generate Art, Disregard Copyrights
+https://mander.xyz/
+An instance dedicated to nature and science.
+https://lemmy.sdf.org/
+A Lemmy instance hosted by the SDF.ORG
+https://slrpnk.net/
+Solarpunk imagines a world in which today’s existential threat - the climate crisis - is being approached with camaraderie and adaptive ingenuity.
+https://feddit.uk/
+UK Lemmy instance on the Fediverse
+https://reddthat.com/
+A friendly front page to a small part of the internet. Community funded & run for the community
+https://pawb.social/
+Communities for furries by furries
+https://aussie.zone/
+Lemmy for Australians and those that love Australia. All welcome. Signups are open.
+https://midwest.social/
+A lemmy server for, but not limited to, leftists in the Midwest USA
+https://feddit.nl/
+A Dutch Lemmy instance hosted by @tedvdb
+https://feddit.it/
+L'alternativa italiana e decentralizzata a Reddit, benvenutǝ!
+https://lemmy.nz/
+Lemmy for New Zealanders
+https://feddit.dk/
+Et dansk forum for alle interesser og emner.
+https://lemmy.pt/
+Uma instância pública de Lemmy dedicada a toda a comunidade de Língua Portuguesa.
+https://yiffit.net/
+A queer and yiffy lemmy instance for furry art discovery
+https://startrek.website/
+The new home of r/StarTrek, r/DaystromInstitute, and sigh ...r/Risa
+https://szmer.info/
+Największa polskojęzyczna instancja Lemmiego.
+https://iusearchlinux.fyi/
+embracing the meme

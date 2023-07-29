@@ -85,3 +85,27 @@ Największa polskojęzyczna instancja Lemmiego.
 iusearchlinux.fyi/
 https://iusearchlinux.fyi/
 embracing the meme
+lemmy.zip/
+https://lemmy.zip/
+A Lemmy community for everyone, with a focus towards tech, PCs, and gaming.
+lemmy.film/
+https://lemmy.film/
+A Lemmy for filmmakers, movie buffs, artists, creators and everyone!
+lemmy.antemeridiem.xyz/
+https://lemmy.antemeridiem.xyz/
+Sunny, multi-purpose lemmy instance that is open for everyone
+latte.isnot.coffee/
+https://latte.isnot.coffee/
+Server for those migrating from Reddit, open registration and community creation. NSFW allowed
+rammy.site/
+https://rammy.site/
+Just another Lemmy instance. We've got a cool mascott though! Open to everyone.
+lemmy.tf/
+https://lemmy.tf/
+Just Another Lemmy Server
+lemmy.villa-straylight.social/
+https://lemmy.villa-straylight.social/
+A general purpose Lemmy instance with a cool cyberpunk aesthetic
+monero.town/
+https://monero.town/
+A town for the Monero community to live in.

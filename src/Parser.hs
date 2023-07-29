@@ -1,3 +1,5 @@
+module Parser where
+import Data.Char
 {-# LANGUAGE ParallelListComp #-}
 
 text_match :: Eq a => [a] -> [a] -> Bool
@@ -10,9 +12,12 @@ ls_and :: [Bool] -> Bool
 ls_and [] = True
 ls_and (x:xs) = x && (ls_and xs)
 
+new_line_char :: [Char]
+new_line_char = [' ','.','-','_','!','?','"',',','(','[','{',')',']','}','\\']
+
 word_extractor_core :: [Char] -> [Char] -> [[Char]]
 word_extractor_core word [] = [word]
-word_extractor_core word (x:xs) | (' '==x) || ('.' == x) = word:(word_extractor_core [] xs)
+word_extractor_core word (x:xs) | elem x new_line_char = word:(word_extractor_core [] xs)
                                 | True = word_extractor_core (word++[x]) xs
 
 word_extractor :: [Char] -> [[Char]] 
@@ -30,3 +35,6 @@ word_finder pat input = ls_or matched_words
 --give in multiple keywords as string with spaces and give input
 multi_word_finder :: [Char] -> [Char] -> Bool
 multi_word_finder pat input = ls_and (fmap (\x -> word_finder x input) (word_extractor pat))
+
+multi_word_finder_lowercase :: [Char] -> [Char] -> Bool
+multi_word_finder_lowercase pat input = multi_word_finder (fmap toLower pat) (fmap toLower input)

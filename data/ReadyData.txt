@@ -109,3 +109,30 @@ A general purpose Lemmy instance with a cool cyberpunk aesthetic
 monero.town/
 https://monero.town/
 A town for the Monero community to live in.
+lemmyfly.org/
+https://lemmyfly.org/
+A Lemmy instance with aviation related communities
+lib.lgbt/
+https://lib.lgbt/
+lib dot lgbt
+lemmy.4d2.org/
+https://lemmy.4d2.org/
+A general purpose instance with an affection for retrocomputing and a left-libertarian cypherpunk sensibility.
+feddit.nu/
+https://feddit.nu/
+En svensk Lemmy-instans
+1337lemmy.com/
+https://1337lemmy.com/
+General Lemmy instance for open source and privacy enthusiasts or anybody looking for an open reddit alternative.
+rblind.com/
+https://rblind.com/
+A community on Lemmy, brought to you by the moderators of the /r/blind subreddit.
+lemmygrad.ml/
+https://lemmygrad.ml/
+A collection of Marxist communities, for memes, learning, news, discussion, media, or anything you like.
+lemmyhub.com/
+https://lemmyhub.com/
+A general purpose instance and an Advocate for FOSS
+invariant-marxism.red/
+https://invariant-marxism.red/
+For discussion and learning focused around Marxism.

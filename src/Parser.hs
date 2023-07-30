@@ -12,13 +12,17 @@ ls_and :: [Bool] -> Bool
 ls_and [] = True
 ls_and (x:xs) = x && (ls_and xs)
 
-new_line_char :: [Char]
-new_line_char = [' ','.','-','_','!','?','"',',','(','[','{',')',']','}','\\']
+smart_new_line_char :: [Char]
+smart_new_line_char = ['.','-','_','!','?','"',',','(','[','{',')',']','}','\\']
 
 word_extractor_core :: [Char] -> [Char] -> [[Char]]
 word_extractor_core word [] = [word]
-word_extractor_core word (x:xs) | elem x new_line_char = word:(word_extractor_core [] xs)
+word_extractor_core word (x:xs) | (elem x smart_new_line_char) && ((safe_head xs) == ' ') = word:(word_extractor_core [] xs)
+                                | x == ' ' = word:(word_extractor_core [] xs)
                                 | True = word_extractor_core (word++[x]) xs
+				where
+				safe_head [] = ' '
+				safe_head a = head a
 
 word_extractor :: [Char] -> [[Char]] 
 word_extractor input = (word_extractor_core [] input) -- >>= no_space

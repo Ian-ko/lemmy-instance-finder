@@ -43,11 +43,17 @@ get_data input index = input >>= comp
  comp input | (fst input) == index = (snd input) ++ ['\n']
             | True = []
 
+main :: IO ()
 main = do
  putStr "input file name\n"
  file_name <- getLine
  putStr "reading file\n"
  file_data  <- readFile file_name
+ loop file_data
+
+
+loop :: [Char] -> IO () 
+loop file_data = do 
  putStr "input keywords\n"
  keywords <- getLine 
  putStr "parsing data\n"
@@ -67,4 +73,10 @@ main = do
  putStr (matches >>= (get_data index_title))
  putStr "---------links----------\n"
  putStr (matches >>= (get_data index_url))
-
+ 
+ putStr "quit [y/n]\n"
+ quit <- (fmap head (getLine))
+ if quit == 'y' then
+  return ()
+ else
+  loop file_data
